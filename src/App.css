@@ -1,0 +1,60 @@
+#root {
+  max-width: 100%;
+}
+/* Primary Theme Color */
+:root {
+  --prime-color: #fa713b;
+  --prime-hover: #e15c27;
+  --prime-light: #ffe3d9;
+}
+
+/* Custom Button */
+.btn-prime {
+  background-color: var(--prime-color);
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-prime:hover {
+  background-color: var(--prime-hover);
+  color: #fff;
+}
+
+/* Outline version */
+.btn-prime-outline {
+  border: 2px solid var(--prime-color);
+  background: transparent;
+  color: var(--prime-color);
+}
+
+.btn-prime-outline:hover {
+  background-color: var(--prime-color);
+  color: #fff;
+}
+
+/* Badge */
+.prime-bdg {
+  background-color: var(--prime-color);
+  color: #fff;
+  padding: 0.35em 0.6em;
+  border-radius: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Background utility */
+.prime-bg {
+  background-color: var(--prime-color) !important;
+  color: #fff;
+}
+
+/* Text color */
+.prime-text {
+  color: var(--prime-color) !important;
+}
+
+/* Border */
+.prime-border {
+  border: 1px solid var(--prime-color);
+}
