@@ -1,6 +1,6 @@
 import { Outlet, useNavigate } from "react-router-dom";
-import Header from "../components/header";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import Header from "../components/Header";
+
 
 export default function Layout() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ export default function Layout() {
         className="flex-grow w-full overflow-y-auto"
         id="scroll-container"
       >
-        <div className="container m-0 max-w-[100%]">
+        <div className="container">
           <Outlet />
         </div>
       </main>

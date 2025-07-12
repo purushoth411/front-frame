@@ -27,7 +27,7 @@ function Login() {
       if (result.status) {
         toast.success('Login successfull');
         login(result.user)
-        navigate('/dashboard');
+        navigate('/');
       } else {
         toast.error(result.message || 'Invalid credentials', {icon : '🚫'});
        setErrorMsg(result.message || 'Invalid credentials');
